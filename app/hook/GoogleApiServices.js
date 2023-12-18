@@ -7,7 +7,7 @@ const calculateDistanceAndTime = async (
   destinationLng,
   mode = "walking"
 ) => {
-  const apiKey = "AIzaSyBoWxGi97h1AM8SRHIPScR-LVkCNalZlc8"; // Replace with your API Key
+  const apiKey = ""; // Replace with your API Key
   const baseUrl = "https://maps.googleapis.com/maps/api/distancematrix/json?";
   const ratePerKm = 1;
 
