@@ -18,7 +18,7 @@ const GoogleMapView = ({ placeList }) => {
     longitudeDelta: 0.0421,
   });
 
-  const apiKey = "AIzaSyBoWxGi97h1AM8SRHIPScR-LVkCNalZlc8";
+  const apiKey = "";
 
   const decode = (encoded) => {
     const points = [];
