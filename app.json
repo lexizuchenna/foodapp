@@ -34,7 +34,6 @@
         "android.permission.FOREGROUND_SERVICE"
       ],
       "package": "com.dacarnage.expofire"
-      
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -46,6 +45,11 @@
           "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "09689a94-2d0a-475d-90a0-7b3beda0627a"
+      }
+    }
   }
 }
